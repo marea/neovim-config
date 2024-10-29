@@ -5,11 +5,8 @@ vim.api.nvim_create_autocmd("FileType", {
   pattern = "gd",
   group = augroup,
   callback = function()
-    local o = vim.o
     local map = vim.keymap.set
 
-    o.shiftwidth = 4
-    o.tabstop = 4
     map(
       "n",
       "<F4>",
