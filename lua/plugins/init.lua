@@ -31,4 +31,11 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = { ensure_installed = require("configs.servers").treesitter },
   },
+  {
+    "habamax/vim-godot",
+    ft = "gdscript",
+    config = function()
+      require "configs.vim-godot"
+    end,
+  },
 }

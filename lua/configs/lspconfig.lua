@@ -11,3 +11,9 @@ for _, lsp in ipairs(require("configs.servers").lsp) do
     capabilities = capabilities,
   }
 end
+
+lspconfig.gdscript.setup {
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+}
