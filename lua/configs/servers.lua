@@ -16,7 +16,7 @@ return {
     "rust_analyzer",
     "sqlls",
     "stylelint_lsp",
-    "tsserver",
+    "ts_ls",
   },
   treesitter = {
     "c",

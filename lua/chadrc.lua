@@ -5,12 +5,9 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = {
+M.base46 = {
   transparency = true,
-  theme = "onenord",
-  tabufline = {
-    order = { "treeOffset", "buffers", "tabs" },
-  },
+  theme = "ayu_dark",
   hl_override = {
     NVimTreeNormal = { bg = "none" },
     NvimTreeNormalNC = { bg = "none" },
@@ -22,6 +19,15 @@ M.ui = {
     St_lspError = { bg = "none" },
     TblineFill = { bg = "none" },
     Tb = { bg = "none" },
+  },
+}
+
+M.ui = {
+  tabufline = {
+    order = { "treeOffset", "buffers", "tabs" },
+  },
+  statusline = {
+    theme = "vscode",
   },
 }
 
