@@ -31,3 +31,10 @@ map(
   require("nvim-tmux-navigation").NvimTmuxNavigateRight,
   { desc = "Switch window right" }
 )
+
+map(
+  "n",
+  "<leader>lf",
+  vim.diagnostic.open_float,
+  { desc = "Open floating diagnostics" }
+)
