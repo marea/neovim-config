@@ -11,12 +11,14 @@ return {
     { '<C-n>', ':Neotree toggle<CR>', desc = 'NeoTree toggle', silent = true },
   },
   config = function()
+    require('neo-tree').setup {
+      window = {
+        position = 'float',
+      },
+    }
     vim.g.transparent_groups =
       vim.list_extend(vim.g.transparent_groups or {}, { 'NeoTreeNormal' })
     vim.g.transparent_groups =
       vim.list_extend(vim.g.transparent_groups or {}, { 'NeoTreeNormalNC' })
   end,
-  opts = {
-    close_if_last_window = true,
-  },
 }
