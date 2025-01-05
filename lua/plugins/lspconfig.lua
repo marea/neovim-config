@@ -74,7 +74,8 @@ return {
         map('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
         map(
           '<leader>ca',
-          vim.lsp.buf.code_action,
+          --vim.lsp.buf.code_action,
+          require('fzf-lua').lsp_code_actions,
           '[C]ode [A]ction',
           { 'n', 'x' }
         )

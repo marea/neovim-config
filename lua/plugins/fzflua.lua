@@ -1,9 +1,14 @@
 return {
   'ibhagwan/fzf-lua',
   dependencies = { 'nvim-tree/nvim-web-devicons' },
-  opts = {},
   config = function()
     local builtin = require 'fzf-lua'
+
+    require('fzf-lua').setup {
+      files = {
+        file_icons = 'devicons',
+      },
+    }
 
     vim.keymap.set(
       'n',
