@@ -37,32 +37,38 @@ return {
 
         map(
           'gd',
-          require('telescope.builtin').lsp_definitions,
+          --require('telescope.builtin').lsp_definitions,
+          require('fzf-lua').lsp_definitions,
           '[G]oto [D]efinition'
         )
         map(
           'gr',
-          require('telescope.builtin').lsp_references,
+          --require('telescope.builtin').lsp_references,
+          require('fzf-lua').lsp_references,
           '[G]oto [R]eferences'
         )
         map(
           'gI',
-          require('telescope.builtin').lsp_implementations,
+          --require('telescope.builtin').lsp_implementations,
+          require('fzf-lua').lsp_implementations,
           '[G]oto [I]mplementation'
         )
         map(
           '<leader>D',
-          require('telescope.builtin').lsp_type_definitions,
+          --require('telescope.builtin').lsp_type_definitions,
+          require('fzf-lua').lsp_typedefs,
           'Type [D]efinition'
         )
         map(
           '<leader>ds',
-          require('telescope.builtin').lsp_document_symbols,
+          --require('telescope.builtin').lsp_document_symbols,
+          require('fzf-lua').lsp_document_symbols,
           '[D]ocument [S]ymbols'
         )
         map(
           '<leader>ws',
-          require('telescope.builtin').lsp_dynamic_workspace_symbols,
+          --require('telescope.builtin').lsp_dynamic_workspace_symbols,
+          require('fzf-lua').lsp_live_workspace_symbols,
           '[W]orkspace [S]ymbols'
         )
         map('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
