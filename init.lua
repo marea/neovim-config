@@ -4,9 +4,9 @@ vim.g.have_nerd_font = true
 
 -- [[ Options ]]
 vim.o.expandtab = true
-vim.o.shiftwidth = 2
+vim.opt.shiftwidth = 2
 vim.o.smartindent = true
-vim.o.tabstop = 2
+vim.opt.tabstop = 2
 vim.o.softtabstop = 2
 
 vim.opt.shortmess:append 'sI'

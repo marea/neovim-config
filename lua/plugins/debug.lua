@@ -97,5 +97,15 @@ return {
         detached = vim.fn.has 'win32' == 0,
       },
     }
+
+    dap.configurations.java = {
+      {
+        type = 'java',
+        request = 'attach',
+        name = 'Debug (Attach) - Remote',
+        hostName = '127.0.0.1',
+        port = 5005,
+      },
+    }
   end,
 }

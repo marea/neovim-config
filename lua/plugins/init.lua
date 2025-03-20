@@ -81,6 +81,24 @@ return {
       vim.keymap.set('n', '<leader>x', ':bd<CR>')
     end,
   },
+  {
+    'javiorfo/nvim-soil',
+    lazy = true,
+    ft = 'plantuml',
+    opts = {
+      actions = {
+        redraw = true,
+      },
+      --puml_jar = "/path/to/plantuml.jar",
+      image = {
+        darkmode = false,
+        format = 'png',
+        execute_to_open = function(img)
+          return 'nsxiv -b ' .. img
+        end,
+      },
+    },
+  },
 }
 
 -- vim: ts=2 sts=2 sw=2 et

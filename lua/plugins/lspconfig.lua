@@ -171,6 +171,11 @@ return {
               callSnippet = 'Replace',
             },
             diagnostics = { disable = { 'missing-fields' } },
+            workspace = {
+              library = {
+                '${3rd}/love2d/library',
+              },
+            },
           },
         },
       },
