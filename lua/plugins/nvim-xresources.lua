@@ -1,4 +1,5 @@
 return {
+  "xiyaowong/transparent.nvim",
   {
     "martineausimon/nvim-xresources",
     config = function()
