@@ -14,31 +14,31 @@
 
 -- Base16 colors.
 local gui00 = "#442028"
-local gui01 = "#6b4f55"
-local gui02 = "#927e83"
-local gui03 = "#b9adb0"
-local gui04 = "#e1dcdd"
+local gui01 = "#6a4d53"
+local gui02 = "#8f7a7f"
+local gui03 = "#b5a7aa"
+local gui04 = "#dbd4d5"
 local gui05 = "#ffffff"
 local gui06 = "#ffffff"
 local gui07 = "#ffffff"
-local gui08 = "#ec1f25"
-local gui09 = "#ea213a"
-local gui0A = "#b15c87"
-local gui0B = "#ea1e47"
-local gui0C = "#a460a4"
-local gui0D = "#c84694"
-local gui0E = "#e03453"
-local gui0F = "#e92626"
+local gui08 = "#c84d72"
+local gui09 = "#cc4a6d"
+local gui0A = "#a460a4"
+local gui0B = "#e03453"
+local gui0C = "#e92626"
+local gui0D = "#ea1e47"
+local gui0E = "#d0466d"
+local gui0F = "#c84694"
 
 -- Base24 colors.
 local gui10 = "#442028"
 local gui11 = "#442028"
-local gui12 = "#ec1f25"
-local gui13 = "#b15c87"
-local gui14 = "#ea1e47"
-local gui15 = "#a460a4"
-local gui16 = "#c84694"
-local gui17 = "#e03453"
+local gui12 = "#c84d72"
+local gui13 = "#a460a4"
+local gui14 = "#e03453"
+local gui15 = "#e92626"
+local gui16 = "#ea1e47"
+local gui17 = "#d0466d"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -119,6 +119,7 @@ vim.api.nvim_set_hl(0, 'PMenuSel', { fg = gui01, bg = gui05, ctermfg = cterm01, 
 vim.api.nvim_set_hl(0, 'TabLine', { fg = gui03, bg = gui01, ctermfg = cterm03, ctermbg = cterm01 })
 vim.api.nvim_set_hl(0, 'TabLineFill', { fg = gui03, bg = gui01, ctermfg = cterm03, ctermbg = cterm01 })
 vim.api.nvim_set_hl(0, 'TabLineSel', { fg = gui0B, bg = gui01, ctermfg = cterm0B, ctermbg = cterm01 })
+vim.api.nvim_set_hl(0, 'NormalFloat', { fg = gui04, bg = gui00, ctermfg = cterm05, ctermbg = cterm01 })
 
 -- Standard syntax highlighting
 vim.api.nvim_set_hl(0, 'Boolean', { fg = gui09, ctermfg = cterm09 })

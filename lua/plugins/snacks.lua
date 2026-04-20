@@ -3,12 +3,15 @@ return {
     "snacks.nvim",
     opts = {
       dashboard = {
-        preset = {
-          header = [[
-            __ _  ___ ________ ___ _
-           /  ' \/ _ `/ __/ -_) _ `/
-          /_/_/_/\_,_/_/  \__/\_,_/ 
-          ]],
+        enabled = true,
+        sections = {
+          {
+            section = "terminal",
+            cmd = "chafa ~/.config/nvim/dash.jpg --format symbols --symbols all --size 80x80 --stretch; sleep .1",
+            width = 80,
+            height = 80,
+            padding = 0,
+          },
         },
       },
     },
