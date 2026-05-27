@@ -50,6 +50,10 @@
       "rev": "44657837c7338e52727facc85c1d95bec1f6bd7c",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
+    "noctalia.nvim": {
+      "rev": "2d8d2519b8088817ddc45b644ffaf5052acdadfb",
+      "src": "https://github.com/keremimo/noctalia.nvim"
+    },
     "nvim-autopairs": {
       "rev": "7b9923abad60b903ece7c52940e1321d39eccc79",
       "src": "https://github.com/windwp/nvim-autopairs"
