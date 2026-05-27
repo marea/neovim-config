@@ -81,6 +81,7 @@ local servers = {
       },
     },
   },
+  svelte = {},
 }
 
 vim.pack.add {

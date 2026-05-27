@@ -10,5 +10,6 @@ require 'custom.conform'
 require 'custom.autocomplete'
 require 'custom.treesitter'
 require 'custom.oil'
+require 'custom.typescript-tools'
 
 vim.cmd.colorscheme 'miniautumn'

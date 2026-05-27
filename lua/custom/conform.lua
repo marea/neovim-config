@@ -18,6 +18,7 @@ require('conform').setup {
     lsp_format = 'fallback',
   },
   formatters_by_ft = {
+    javascript = { 'prettierd', 'prettier', stop_after_first = true },
   },
 }
 
