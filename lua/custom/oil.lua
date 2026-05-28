@@ -31,7 +31,7 @@ require('oil').setup {
     max_height = 0.8,
     border = 'rounded',
     win_options = {
-      winblend = 10,
+      winblend = 0,
     },
   },
   confirmation = {
