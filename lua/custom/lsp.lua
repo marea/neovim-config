@@ -82,6 +82,7 @@ local servers = {
     },
   },
   svelte = {},
+  tailwindcss = {},
 }
 
 vim.pack.add {
