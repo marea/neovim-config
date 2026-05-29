@@ -5,6 +5,9 @@ vim.pack.add { gh 'folke/snacks.nvim' }
 require('snacks').setup {
   image = {
     enabled = true,
+    doc = {
+      max_height = 1,
+    },
   },
   dashboard = {
     enabled = true,
