@@ -83,6 +83,16 @@ local servers = {
   },
   svelte = {},
   tailwindcss = {},
+  astro = {
+    init_options = {
+      typescript = {
+        tsdk = '/usr/lib/node_modules/typescript/lib',
+      },
+    },
+  },
+  phpactor = {},
+  eslint = {},
+  sqlls = {},
 }
 
 vim.pack.add {
