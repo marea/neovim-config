@@ -93,6 +93,8 @@ local servers = {
   phpactor = {},
   eslint = {},
   sqlls = {},
+  gopls = {},
+  templ = {},
 }
 
 vim.pack.add {
