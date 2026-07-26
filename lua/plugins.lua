@@ -1,0 +1,17 @@
+require 'plugins.autopairs'
+require 'plugins.blink-cmp'
+require 'plugins.colorscheme'
+require 'plugins.conform'
+require 'plugins.gitsigns'
+require 'plugins.guess-indent'
+require 'plugins.indent_line'
+require 'plugins.lspconfig'
+require 'plugins.mini'
+require 'plugins.neo-tree'
+require 'plugins.snacks'
+require 'plugins.telescope'
+require 'plugins.todo-comments'
+require 'plugins.treesitter'
+require 'plugins.which-key'
+
+-- vim: ts=2 sts=2 sw=2 et
