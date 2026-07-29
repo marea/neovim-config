@@ -49,7 +49,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 local servers = {
   gopls = {},
   svelte = {},
-  -- ts_ls = {},
+  ts_ls = {},
   stylua = {},
   lua_ls = {
     on_init = function(client)
