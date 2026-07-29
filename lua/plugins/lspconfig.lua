@@ -47,6 +47,8 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
 ---@type table<string, vim.lsp.Config>
 local servers = {
+  gopls = {},
+  svelte = {},
   -- ts_ls = {},
   stylua = {},
   lua_ls = {
