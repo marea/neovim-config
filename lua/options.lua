@@ -24,6 +24,7 @@ vim.o.inccommand = 'split'
 vim.o.cursorline = true
 vim.o.scrolloff = 10
 vim.o.confirm = true
+vim.o.winborder = 'rounded'
 vim.o.wrap = false
 
 -- vim: ts=2 sts=2 sw=2 et
