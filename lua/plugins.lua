@@ -14,5 +14,6 @@ require 'plugins.todo-comments'
 require 'plugins.treesitter'
 require 'plugins.which-key'
 require 'plugins.dadbod'
+require 'plugins.flutter'
 
 -- vim: ts=2 sts=2 sw=2 et
