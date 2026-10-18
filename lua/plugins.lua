@@ -13,5 +13,6 @@ require 'plugins.telescope'
 require 'plugins.todo-comments'
 require 'plugins.treesitter'
 require 'plugins.which-key'
+require 'plugins.dadbod'
 
 -- vim: ts=2 sts=2 sw=2 et
